@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+
+        <item
+            android:id="@+id/send"
+            android:icon="@drawable/ic_baseline_send_24"
+            android:title="Send"></item>
+
+        <item
+            android:id="@+id/bluetooth"
+            android:icon="@drawable/ic_baseline_bluetooth_24"
+            android:title="Bluetooth"></item>
+
+
+        <item android:title="Others">
+            <menu>
+                <item
+                    android:id="@+id/attach_file"
+                    android:icon="@drawable/ic_baseline_attach_file_24"
+                    android:title="Attach file"></item>
+
+                <item
+                    android:id="@+id/backup"
+                    android:icon="@drawable/ic_baseline_backup_24"
+                    android:title="Backup"></item>
+
+
+            </menu>
+        </item>
+
+
+    <item android:title="Tools">
+        <menu>
+            <item
+                android:id="@+id/alarm"
+                android:icon="@drawable/ic_baseline_alarm_24"
+                android:title="Alarm"></item>
+        </menu>
+    </item>
+</menu>
